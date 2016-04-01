@@ -1,0 +1,26 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+
+</head>
+	<body>
+		<h1 id="id1">My Heading 1</h1>
+<script>
+function resizeText(multiplier) {
+  if (document.getElementById('id1').style.fontSize == "") {
+  document.getElementById('id1').style.fontSize = "1.0em";
+}
+  document.getElementById('id1').style.fontSize = parseFloat(document.getElementById('id1').style.fontSize) + (multiplier * 0.2) + "em";
+}
+</script> // suffit de faire des fonc pour chaque mot ouéééééééééééééééé
+
+<button type="button" 
+onclick="resizeText(1)">
+Click Me!</button>
+		<p> <span id="un">nuage</span>
+		<span id="deux">de</span>
+		</br>
+		<span id="trois">mot</span>
+		</p>
+	</body>
+</html>

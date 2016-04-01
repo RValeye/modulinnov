@@ -1,0 +1,35 @@
+h1{
+	font-size:1.0em;
+}
+
+input#cobutton0:hover{
+	background-color :grey; 
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+
+input#inbutton0{
+	cursor:pointer;
+	padding:5px 25px;
+	background:#ffffff; 
+	border:2px solid grey; 
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+	box-shadow: 0 0 4px rgba(0,0,0, .75);
+
+	color:DarkOrange;
+	font-size:20px;
+}
+
+input#inbutton0:hover{
+	background-color :grey; 
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+	box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
