@@ -1,0 +1,146 @@
+#entete, #menu, #contenu {
+padding:0px ;
+top:0;
+position:relative;
+}
+#entete {
+background-image:url(orange.jpg);
+text-align:center;
+margin-left:300px;
+margin-right:300px;
+border: 3px black ridge;
+height:135px;
+padding:5px;
+border-radius: 10px;
+box-shadow: 6px 6px 6px black;
+}
+http://mfs3.cdnsw.com/fs/Utilitaires/9a6zl-Fonds_encore_plus_neutre_et_plus_clair.jpg
+#main {
+
+margin:auto;
+height:400px;
+}
+#menu  {
+float:left;
+
+width:240px;
+
+}
+#contenu {
+margin-left:300px;
+margin-right:300px;
+height:515px;
+border: 3px black ridge;
+
+border-image:#955628;
+border-radius: 10px;
+box-shadow: 6px 6px 6px black;
+}
+
+#footer {
+width:904px;
+left:0px;	
+background-image:url(orange.jpg);
+text-align:center;
+clear:both;
+position:fixed;
+bottom: 0;
+}
+.button {
+    background-image: url(g3.jpg);
+    border: none;
+    color: black;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#im{
+vertical-align:middle;
+position:relative;	
+width:380px;
+height:250px;
+padding-left:40px;
+}
+
+#im2{
+vertical-align:middle;
+position:relative;	
+width:200px;
+height:100px;
+}
+
+#im3{
+width:10px;
+height:10px;
+}
+
+p{
+font-family:arial narrow;	
+padding:15px;
+text-align:justify
+}
+
+h1{
+font-family:cooper black;
+	
+}
+
+h2{
+font-family:cooper black;
+
+width:150px;	
+}
+
+.bloc-fixe {
+  position:absolute;
+  border: 3px black ridge;
+  width:680px;
+  top:20px;
+  left:80px;
+  bottom:10px;
+  height:375px;
+  padding:30px;
+background-image:url(gris.jpg);
+border-radius: 10px;
+box-shadow: 6px 6px 6px black;
+}
+
+button{
+position:absolute;
+bottom:0px;	
+width:680px;
+}
+
+.bloc-gauche {
+  float:left;
+  width:875px;
+  color:#A0A0A0;
+  border-right:solid 1px;
+  padding-right:8px;
+  height:225px;
+}
+
+img {
+  vertical-align:middle;
+  width:30px
+  height:30px;
+  
+  
+  
+}
+
+form
+  {
+	  
+      padding: 0px;
+      margin: 0px;
+      display:inline;
+  }
+  
+html, body{height: 100%; /*fait en sorte que la page occupe tout l'espace*/
+
+
+} 
